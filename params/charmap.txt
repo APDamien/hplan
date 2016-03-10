@@ -1,0 +1,121 @@
+Amy;Wynn;squirrel anthro
+Andrew;Andrew;squirrel anthro
+Gina;Giles;tiger
+Scott;Scott;cheetah
+Alice;Alice;mongoose
+Steffie;Ted;meerkat
+Stephanie;Edward
+Megan;Maverick;jackal
+Miranda;Marshall;horse
+Melissa;Marcus;Horse
+Mindy;Miles;Horse
+Marisa;Manning;Horse
+Petra;Preston;Wynn's father
+Linda Cameron;Larry Cameron
+Megan Cameron;Maverick Cameron
+Amber;Arlen
+Angie;Angus
+Anita;Amos
+April;Ari
+Amelia;Armand
+Aubra;Aubrey
+Barbara;Baker
+Benjamin;Benjamin;cheetah
+Beth;Bailey;kangaroo
+Beverly;Bert;housecat
+Big Bill;Big Bill;jaguar|Bill;Bill
+Bridget;Brian;bat
+Cassie;Cal
+Justin;Justin;doberman
+Celia;Cecil
+Dr. Chase;Dr. Chase;opossum
+Christa;Chevy;goat
+Christie;Chris
+Cindy;Chip
+Cleo;Clancy
+Connie;Conroy
+Dave;Rochelle;caracal|Dave Baylor;Rochelle Baylor
+Jimmy;Jimmy;otter
+Pellis;Pellis
+Cynthia;Cyrano
+FPuppy;Puppy;
+Daisy;Darien;puppyboy
+Darlene;Dale
+Dean Porter;Dean Porter;leopard
+Denise;Dennis
+Donna;Donald
+Laney;Leo;beaver
+Elaine;Cleon
+Emma;Elton
+Emily;Emil;beaver
+Erin;Eric;Opossum
+Gail;Gil;fox
+Ginger;Grady
+Ginny;Gino
+Grace;Grace;tommy
+Gwen;Guido
+Hayley;Halley
+Heide;Hector
+Holly;Holden;ocelot
+Haley;Hamish;ocelot
+Jackie;Jack;hamster
+Jackson;Bruno
+Jaime;James
+Janet;Victor
+Jasmine;Jasper
+Jeannie;Judd
+Jenny;Jem
+Jessica;Jessica;Civet
+Jordan;Jordan
+Julia;Julius
+Kathleen;Kelly;Jackal
+Linda;Larry;lemur
+Liz;Link
+Elizabeth;Link
+Lori;Loren;hare
+Lucy;Lucas
+Mandy;Manfred
+Marcie;Kendrick
+Marcy;Malcolm
+Maria;Parker
+Marie;Marie
+Maya;Maxwell;koala
+Molly;Monty
+Mona;Monroe
+Monique;Garrett;giraffe
+Neely;Nick
+Pam;Pat;skunk|Pamela;Patrick
+Paula;Paul
+Janet Reed;Jason Reed;stoat
+Janet Reed;Jase Reed
+Richelle;Rhys
+Rita;Richard;mole
+Runner;Runner;steenbok
+Sadie;Selwin
+Samantha;Samuel
+Sarah;Sanford
+Sarah Cray;Santos Cray;Lion, artist
+Sela;Zuchter;gemsbok
+Serena;Seymour;jackal
+Sharon;Seamus;Benjamin's slave
+Shawna;Shaw;rabbit
+Sheila;Shea
+Sheree;Sherman
+Stacia;Stacy
+Stan;Stan;ocelot
+Susan;Sumner;mouse
+Suze;Sum
+Tammy;Tarrant
+Tanya;Tavish
+Tasha;Thorne;Holden's roommate
+Terri;Terry
+Tina;Tighe
+Toni;Tony
+Tracie;Tracie
+Tricia;Tristan
+Vonda;Valentin;bobcat
+Wendy;Wallace;tapir
+Hyena;Hyena
+Jana;xxxx;genet
+// Mr. Wainwright;Mr. Wainwright;weasel|;Andrew's lawyer
+Zoey Hillcrest;Zeke;lemur

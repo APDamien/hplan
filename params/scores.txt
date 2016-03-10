@@ -1,0 +1,8 @@
+// Scores for sex acts
+FF::0
+MF::+8
+FM::+8
+MM::0
+// Scores for Hs
+hF::0
+hM::0

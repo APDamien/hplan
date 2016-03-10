@@ -1,0 +1,99 @@
+<!--=========================================================-->
+<!--  Build (Makefile) for use with Ant.             	     -->
+<!--=========================================================-->
+
+<project name="hplan" default="jar" basedir="">
+
+  <!-- set global properties for this build -->
+  <property name="build.dir"  value=""/>
+
+  <!-- build setup properties  -->
+  <property name="src" value="src" />
+  <property name="classes" value="classes" />
+  <property name="jarlib" value="./lib"/>
+  <property name="HOME" value="C:/barry"/>
+<!-- REQUIRED Deployment properties file must define each of -->
+  <!-- the properties below (at least, those that will be used -->
+  <!--  by the executed targets                                -->
+  <property name="hjar"  value="${jarlib}/h.jar"/>
+ 
+  <!-- Classpath referenced by most of the targets             -->
+
+  <path id="project.class.path">
+    <pathelement location="C:/Program Files/Java/jdk1.8.0_25/lib"/>
+    <pathelement location="C:/j2sdk1.4.2_09"/>
+    <!--<pathelement location="${classes}" />-->
+    <pathelement location="${hjar}"/>
+  </path>
+
+  <!--=========================================================-->
+  <!--  INITIALIZATION AND INFORMATIONAL TARGETS               -->
+  <!--=========================================================-->
+
+  <target name="info"
+          description="Describe Ant Usage">
+    <echo message="Usage:  ant  target"/>
+    <echo message="     "/>
+  </target>
+
+  
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <echo message="-------------------------------------"/>
+  </target>
+
+  <target name="prepare" depends="init">
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${classes}" />
+    <mkdir dir="${jarlib}" />
+  </target>
+
+  <!--=========================================================-->
+  <!--  COMPILE		        	 		       -->
+  <!--=========================================================-->
+  <target name="compile"
+          depends="prepare"
+          description="Build Java files">
+    <javac srcdir="${src}"
+		  classpathref="project.class.path"
+           destdir="${classes}" >
+	  <!--<compilerarg value="-Xlint:unchecked" />-->
+	  <compilerarg value="-g" />
+    </javac>
+   </target>
+
+  <!--=========================================================-->
+  <!--  TARGET FOR CREATING MY JAR  		               -->
+  <!--=========================================================-->
+
+  <target name="jar"
+		depends="init, compile"
+		description="create jar for the hc plan application">
+    <jar jarfile="${hjar}">
+      <fileset dir="${classes}"/>
+    </jar>
+  </target>
+
+  <!--=========================================================-->
+  <!--  TARGET FOR TESTING THE PROGRAM                         -->
+  <!--=========================================================-->
+
+  <target name="run" depends="main_run"/>
+  <target name="main_run" depends="jar">
+	<java classname="haplan.hplan"
+		  classpathref="project.class.path" >
+    </java>
+  </target>
+
+  <!--=========================================================-->
+  <!--  TARGETS FOR POST-MAKE CLEAN                            -->
+  <!--=========================================================-->
+
+  <target name="clean"
+          description="Wipe out the classes directory">
+    <delete dir="${classes}" />
+  </target>
+
+</project>
+
